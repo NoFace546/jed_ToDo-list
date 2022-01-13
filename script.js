@@ -22,7 +22,7 @@ button.addEventListener("click", function(){
     
     paragraph.addEventListener("dblclick", function(){
         toDoList.removeChild(paragraph);
-        nrCompleted = nrCompleted -1;
+        nrCompleted = nrCompleted -2;
         CompletedTask.innerText = "Number of completed tasks: " + nrCompleted ;
 
     })
