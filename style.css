@@ -11,12 +11,13 @@ background: linear-gradient(207deg, rgba(61,217,68,1) 0%, rgba(0,212,255,1) 100%
 
 header{
     margin: auto !important;
+    text-align: center;
 }
 
 #main {
 
-    position: relative;
-    width: 35%;
+
+    width: 50%;
     margin: auto;
     padding: 1em;
 
@@ -31,8 +32,27 @@ header{
 
 }
 
+#split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
 p:hover{
     text-decoration: line-through;
+}
+hr{
+    background-color: white;
+    border: 1px solid white;
+}
+
+#howto{
+    padding-right: 1em;
+    border-right: 2px solid white;
+}
+
+#list-of-tasks{
+    padding-left: 1em;
 }
 
 #button{
