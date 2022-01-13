@@ -1,0 +1,42 @@
+
+html, body, #main {
+    height: 100%;
+}
+
+header{
+    margin: auto !important;
+}
+
+#main {
+
+    position: relative;
+    width: 35%;
+    margin: auto;
+    padding: 1em;
+
+    border-left: solid black 1px;
+
+}
+
+.paragraph-style{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#button{
+
+    border-width: 1px;
+
+}
+
+#text{
+
+    border-width: 1px;
+    margin-right: 0px;
+}
+
+#button, #text{
+    height: 20px;
+    font-size: 1.25;
+}
