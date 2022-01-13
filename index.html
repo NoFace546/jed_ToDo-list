@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
      
 </head>
@@ -12,20 +16,25 @@
     <div id="main">
         <!--Overskrift-->
     <header>
-            <h1>To-Do list</h1>
+            <h1>Simple To-Do list</h1>
+            <hr>
         </header>
         <div id="CompletedTask"></div>
         <br/>
-        <h2 id="instructions">Instructions: </h2> <br/>
-        <p>
+      
+        <div id="instructions"><b>Instructions:</b> </div>
+        <br/>
+        <section>
             Write your task in the textbox and click on the create button to create your task. <br/>
             If you finnish a task, click on the task to strike it out, to delete it double-click on the task.
-        </p>
+        </section>
+        <br/>
 
-        <input type="textbox" id="text" name="text" placeholder="Enter task"> <button id="button">Create</button>
-        <div id="toDoList"> 
+        <input type="textbox" id="text" name="text" placeholder="Enter task"> <!--<button id="button">Create</button>--> <div id="button">Create Task</div>
+        <section id="toDoList"> 
+            <br/>
         
-        </div>
+        </section>
 
     </div>
     <script src="script.js"> </script>

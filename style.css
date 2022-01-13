@@ -1,6 +1,12 @@
 
 html, body, #main {
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background: rgb(61,217,68);
+background: linear-gradient(207deg, rgba(61,217,68,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 header{
@@ -14,29 +20,42 @@ header{
     margin: auto;
     padding: 1em;
 
-    border-left: solid black 1px;
 
 }
 
 .paragraph-style{
     margin-top: 5px;
     margin-bottom: 5px;
+    background: #fff;
+    padding: 0.5em;
 
+}
+
+p:hover{
+    text-decoration: line-through;
 }
 
 #button{
 
-    border-width: 1px;
+    height: 100px; width: 100px;
+    float: right;
+    background: rgb(61,217,68);
+    border: 0.5px solid black;
+    padding: 4px;
+}
 
+#button:hover{
+    background: rgb(61,217,68);
 }
 
 #text{
 
-    border-width: 1px;
     margin-right: 0px;
+
 }
 
 #button, #text{
     height: 20px;
     font-size: 1.25;
 }
+

@@ -25,6 +25,8 @@ button.addEventListener("click", function(){
         nrCompleted = nrCompleted -2;
         CompletedTask.innerText = "Number of completed tasks: " + nrCompleted ;
 
+
+
     })
     })
     
